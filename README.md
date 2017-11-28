@@ -2,6 +2,8 @@
 
 The Numpy+Scipy version of the "spherepts" ported by Yasuhiko OKADA.
 
+Original MATLAB code by Prof. Grady Wright:
+https://github.com/gradywright/spherepts
 
 ## Requirments
 
@@ -58,7 +60,8 @@ $ python3 getIcosNodes_171126.py
 ```
 Ubuntu 16.04 LTS desktop amd64
 Python 3.5.2
-IPython 6.0.0 -- An enhanced Interactive Python.
+Numpy v1.13.1
 scipy v0.19.1
+IPython 6.0.0 -- An enhanced Interactive Python.
 ```
 
