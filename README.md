@@ -1,3 +1,5 @@
+Updated: Nov. 02, 2017
+
 ### pySpherepts_171126
 
 The Numpy+Scipy version of the "spherepts" ported by Yasuhiko OKADA.
@@ -65,3 +67,8 @@ scipy v0.19.1
 IPython 6.0.0 -- An enhanced Interactive Python.
 ```
 
+### Setup > Ubuntu 16.04 LTS
+
+In order to use the package, Numpy and Scipy are required. 
+
+For Ubuntu 16.04 LTS, the setup procedure is written in the 'doc/setupUbuntu1604LTS.md`.
