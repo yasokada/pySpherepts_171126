@@ -1,4 +1,5 @@
 Ubuntu 16.04 LTS > setup Jupyter (Python3 + Numpy + Scipy + Matplotlib)
+
 Updated: Dec. 2, 2017
 
 ```txt:environment
