@@ -5,7 +5,7 @@ The Numpy+Scipy version of the "spherepts" ported by Yasuhiko OKADA.
 Original MATLAB code by Prof. Grady Wright:
 https://github.com/gradywright/spherepts
 
-## Requirments
+## Requirements
 
 ### Numpy and Scipy 
 
