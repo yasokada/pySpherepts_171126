@@ -1,4 +1,4 @@
-Updated: Nov. 02, 2017
+Updated: Dec. 02, 2017
 
 ### pySpherepts_171126
 
