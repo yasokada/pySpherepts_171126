@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[1]:
 
 '''
 Type 0 Example
@@ -17,13 +17,13 @@ rcParams['figure.figsize'] = 10,10
 rcParams['figure.dpi'] = 75
 
 xs, tris = gIN.getIcosNodes(4,0)
-pSN.plotSphNodes(xs)
+pSN.plotSphNodes(xs, elevation=0.0, azimuth=90.0)
 
 print(xs)
 print(tris)
 
 
-# In[4]:
+# In[2]:
 
 '''
 Type 1 Example
@@ -39,7 +39,7 @@ rcParams['figure.figsize'] = 10,10
 rcParams['figure.dpi'] = 75
 
 xs, tris = gIN.getIcosNodes(2,1)
-pSN.plotSphNodes(xs)
+pSN.plotSphNodes(xs, elevation=0.0, azimuth=90.0)
 
 print(xs)
 print(tris)
