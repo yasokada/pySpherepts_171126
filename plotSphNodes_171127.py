@@ -15,6 +15,7 @@ v0.1 Nov. 27, 2017
 
 # on Matplotlib
 
+
 def extractFrontPoints(data, elevation, azimuth):
     xx, yy, zz = np.hsplit(data, 3)
 
