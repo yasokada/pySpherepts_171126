@@ -13,6 +13,8 @@ https://github.com/gradywright/spherepts
 
 The code uses Numpy and Scipy.
 
+For Ubuntu 16.04 LTS, the setup procedure is written in the 'doc/setupUbuntu1604LTS.md`.
+
 ### freeBoundary
 
 The code uses the [freeBoundary_171112.py].
@@ -67,8 +69,3 @@ scipy v0.19.1
 IPython 6.0.0 -- An enhanced Interactive Python.
 ```
 
-### Setup > Ubuntu 16.04 LTS
-
-In order to use the package, Numpy and Scipy are required. 
-
-For Ubuntu 16.04 LTS, the setup procedure is written in the 'doc/setupUbuntu1604LTS.md`.
