@@ -4,6 +4,8 @@ import numpy as np
 from pylab import rcParams
 
 '''
+v0.2 Dec. 02, 2017
+    - plotSphNodes() takes [elevation] and [azimuth] args
 v0.1 Nov. 27, 2017
     - add plotSphNodes()
 '''
@@ -11,7 +13,7 @@ v0.1 Nov. 27, 2017
 # on Matplotlib
 
 
-def plotSphNodes(data):
+def plotSphNodes(data, elevation=0.0, azimuth=0.0):
     # Create a sphere
     r = 1
     pi = np.pi
@@ -57,5 +59,5 @@ def plotSphNodes(data):
     plt.tight_layout()
     # elevation and azimuth
     # where azimuth is [MATLAB's azimuth - 90] degrees
-    ax.view_init(elev=0, azim=0)
+    ax.view_init(elev=elevation, azim=azimuth)
     plt.show()
