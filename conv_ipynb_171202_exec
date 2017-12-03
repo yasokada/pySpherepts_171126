@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+jupyter nbconvert --to script samplePlotSphNodes_gIN_171127.ipynb
+jupyter nbconvert --to script samplePlotSphNodes_gHN_171203.ipynb
