@@ -1,4 +1,4 @@
-Updated: Dec. 02, 2017
+Updated: Dec. 03, 2017
 
 ### pySpherepts_171126
 
@@ -49,14 +49,20 @@ $ python3 getIcosNodes_171126.py
 
 ### In Jupyter Notebook (with Numpy and Scipy)
 
+For getIcosNodes()
 1. Open the samplePlotSphNodes_gIN_171127.ipynb
 2. Execute the Type 0 Example
     - Ctrl + Enter (at Ubuntu 16.04 LTS, for example)
 3. Execute the Type 1 Example
 
+For getHammersleyNodes()
+1. Open the samplePlotSphNodes_gHN_171203.ipynb
+2. Execute the example
+    - Ctrl + Enter (at Ubuntu 16.04 LTS, for example)
     
 ### Porting History
 
+- Dec. 03, 2017: getHammersleyNodes() has been ported
 - Nov. 29, 2017: getIcosNodes() has been ported
 
 ### Tested environment
