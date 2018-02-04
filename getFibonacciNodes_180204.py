@@ -24,6 +24,8 @@ import sph2cart_180204 as s2c
 
 
 '''
+v0.2 Feb.04, 2018
+    - refactor
 v0.1 Feb.04, 2018
     - add getFibonacciNodes()
 '''
@@ -40,11 +42,10 @@ def getFibonacciNodes(Num):
     golrat = (1 + np.sqrt(5))/2  # golden ratio
 
     xs = []
-    kidx = 1
-    for kidx, pickidx in enumerate(range(-Nhalf, Nhalf + 1)):
-        lat[kidx] = np.arcsin(2*pickidx/Nodd)
-        lon[kidx] = 2 * np.pi * pickidx / golrat
-        res = s2c.sph2cart(lon[kidx], lat[kidx], 1+0.0*lat[kidx])
+    for pickidx in range(-Nhalf, Nhalf + 1):
+        lat = np.arcsin(2*pickidx/Nodd)
+        lon = 2 * np.pi * pickidx / golrat
+        res = s2c.sph2cart(lon, lat, 1+0.0*lat)
         xs += [res]
     xs = np.array(xs)
     return xs
