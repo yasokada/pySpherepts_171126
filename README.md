@@ -1,4 +1,4 @@
-Updated: Dec. 03, 2017
+Updated: Feb. 04, 2018
 
 ### pySpherepts_171126
 
@@ -62,6 +62,7 @@ For getHammersleyNodes()
     
 ### Porting History
 
+- Feb. 04, 2018: getFibonacciNodes() has been ported
 - Dec. 03, 2017: getHammersleyNodes() has been ported
 - Nov. 29, 2017: getIcosNodes() has been ported
 
